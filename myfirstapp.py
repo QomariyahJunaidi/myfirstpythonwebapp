@@ -11,12 +11,12 @@ readme = st.checkbox("readme first")
 if readme:
 
     st.write("""
-        This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/richieyuyongpoh/myfirstapp)
+         This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on [streamlit cloud](https://streamlit.io/cloud). You may get the codes via [github](https://github.com/QomariyahJunaidi/myfirstpythonwebapp)
         """)
 
     st.write ("For more info, please contact:")
 
-    st.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+    st.write("<a href='https://www.linkedin.com/qomariyah-junaidi-174293ba'>Qomariyah Junaidi</a>", unsafe_allow_html=True)
 
 option = st.sidebar.selectbox(
     'Select a mini project',
